@@ -29,6 +29,8 @@ function publishContent(){
 	if(verifyNetwork){
 		//send data to server
 		sendNotification(action, username);
+	}else{
+		alert('your conotent will be published when connection is restored')
 	}
 }
 
