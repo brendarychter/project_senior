@@ -30,7 +30,7 @@ function publishContent(){
 		//send data to server
 		sendNotification(action, username);
 	}else{
-		alert('your content will be published when connection is restored')
+		alert('your conotent will be published when connection is restored')
 	}
 }
 
